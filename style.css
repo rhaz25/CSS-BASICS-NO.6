@@ -1,18 +1,67 @@
-#header1 {
-    text-align: center;
+body {
+    margin: 0;
+    background-color: tan;
+}
+
+.banner {
+    background-color: rgb(95, 65, 26);
     padding: 50px;
-    background-color: rgb(134, 80, 8);
-    
+    margin: 0;
+    text-align: center;
+}
+
+.nav-navigation {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    position: relative;
+    bottom: -130px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+li {
+display: inline-block;
+padding: 0 15px 0 15px;
+font-size: 28px;
+}
+
+.nav-ul {
+    text-align: center;
     
 }
-nav{
-    color: rgb(32, 141, 4);
-    text-align: center;
-    display: block;
-    
+
+section {
+    padding-top: 40px;
 }
-h2{
+h1 {
+    font-size: 45px;
+    padding-top: 100px;
+}
+h2 {
+    font-size: 35px;   
     text-align: center;
-    padding: 50px;
-    background-color:rgb(228, 176, 109);
+}
+
+footer {
+    text-align: center;
+}
+
+article {
+    color: rgb(61, 42, 165);
+}
+
+.nav-bar {
+    display: flex;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+
 }
